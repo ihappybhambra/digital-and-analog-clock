@@ -3,7 +3,83 @@
 <head>
     <title>Digital and Analog Clock</title>
     <style>
+ .clock {
+           top: 120px;
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 15px solid #333;
+            border-radius: 8vh;
+            margin-bottom: 20px; 
+            background-color: lightgrey;
+            left: 34%; 
 
+        }
+
+        .hand {
+            position: absolute;
+            background: #000;
+            transform-origin: 50% 100%;
+            
+        }
+
+        .hour-hand {
+            width: 8px;
+            height: 70px;
+            left: 48%;
+            top: 15%;
+        }
+
+        .minute-hand {
+            width: 6px;
+            height: 85px;
+            left: 48%;
+            top: 7%;
+        }
+
+        .second-hand {
+            width: 3px;
+            height: 80px;
+            left: 50%;
+            top: 10%;
+            background-color: red;
+        }
+
+        .center {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: red;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .digital-clock {
+            font-size: 24px;
+         font-family: Arial;
+           color: #333;
+             border: 3px solid black;
+             border-radius: 10px;
+             padding: 8px 10px;
+            top: 250px; 
+    left: 10%; 
+    position: absolute;     
+        }
+        
+        .hb {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 4px 2px;
+            position: relative;
+            left: 41%;
+            top: 200px;
+            border-radius: 12px;
+            border: 5px solid grey;
+        }
 
         </style>
 </head>
